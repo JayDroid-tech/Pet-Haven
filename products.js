@@ -29,14 +29,21 @@ for (let i = 1; i <= 100; i++) {
   });
 }
 
-const container = document.getElementById("product-list");
+window.onload = function () {
+  const container = document.getElementById("product-list");
 
-products.forEach(p => {
-  container.innerHTML += `
-    <div class="card">
-      <img src="${p.image}" />
-      <h3>${p.name}</h3>
-      <p>Price: $${p.price}</p>
-    </div>
-  `;
-});
+  if (!container) {
+    console.log("Product container not found");
+    return;
+  }
+
+  products.forEach(p => {
+    container.innerHTML += `
+      <div class="card">
+        <img src="${p.image}" onerror="this.style.display='none'" />
+        <h3>${p.name}</h3>
+        <p>Price: $${p.price}</p>
+      </div>
+    `;
+  });
+};
