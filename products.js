@@ -10,10 +10,10 @@ const names = {
 };
 
 const images = {
-  dog: "https://images.unsplash.com/photo-1583511655857-d19b40a7a54e",
-  cat: "https://images.unsplash.com/photo-1511044568932-338cba0ad803",
-  bird: "https://images.unsplash.com/photo-1522926193341-e9ffd686c60f",
-  fish: "https://images.unsplash.com/photo-1524704654690-b56c05c78a00"
+  dog: "https://images.unsplash.com/photo-1583511655857-d19b40a7a54e?auto=format&fit=crop&w=500",
+  cat: "https://images.unsplash.com/photo-1511044568932-338cba0ad803?auto=format&fit=crop&w=500",
+  bird: "https://images.unsplash.com/photo-1522926193341-e9ffd686c60f?auto=format&fit=crop&w=500",
+  fish: "https://images.unsplash.com/photo-1524704654690-b56c05c78a00?auto=format&fit=crop&w=500"
 };
 
 for (let i = 1; i <= 100; i++) {
