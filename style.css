@@ -75,10 +75,10 @@ footer {
   background: #111;
   color: #aaa;
 }
-.card img {
+..card img {
   width: 100%;
   height: 160px;
   object-fit: cover;
   border-radius: 10px;
-  display: block;
+  background: #eee;
 }
